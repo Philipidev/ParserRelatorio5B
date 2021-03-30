@@ -36,11 +36,17 @@ namespace Rel05B
             }
 
             ParseTextToHex(TextoArquivo);
+
+            Console.WriteLine("\n\n Arquivo 'textohex.txt' foi gerado..");
+            Console.ReadLine();
+            Environment.Exit(0);
         }
 
         private static void ParseTextToHex(string[] linhasTexto)
         {
             int PosInicio = GetPosicaoInicio(linhasTexto);
+            if (File.Exists("textohex.txt"))
+                File.Delete("textohex.txt");
             using (StreamWriter sw = new StreamWriter("textohex.txt"))
             {
                 for (int i = ++PosInicio; i < linhasTexto.Length && !linhasTexto[i].StartsWith("fim."); i++)
