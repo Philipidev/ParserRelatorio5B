@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 
 namespace Rel05B
 {
@@ -75,7 +73,7 @@ namespace Rel05B
             }
             else
             {
-                string Operacao = linha.Substring(0, linha.Length-1);
+                string Operacao = linha.Substring(0, linha.Length - 1);
                 return $"{X}{Y}{GetHexFromMnemonico(Operacao)}";
             }
         }
@@ -127,7 +125,10 @@ namespace Rel05B
             for (int i = 0; i < linhasTexto.Length; i++)
             {
                 if (linhasTexto[i].StartsWith("inicio:"))
+                {
                     posInicio = i;
+                    break;
+                }
             }
             return posInicio;
         }
