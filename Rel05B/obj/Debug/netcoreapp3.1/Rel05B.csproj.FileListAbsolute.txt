@@ -1,0 +1,13 @@
+C:\Users\phili\source\repos\Rel05B\Rel05B\obj\Debug\netcoreapp3.1\Rel05B.csprojAssemblyReference.cache
+C:\Users\phili\source\repos\Rel05B\Rel05B\obj\Debug\netcoreapp3.1\Rel05B.AssemblyInfoInputs.cache
+C:\Users\phili\source\repos\Rel05B\Rel05B\obj\Debug\netcoreapp3.1\Rel05B.AssemblyInfo.cs
+C:\Users\phili\source\repos\Rel05B\Rel05B\obj\Debug\netcoreapp3.1\Rel05B.csproj.CoreCompileInputs.cache
+C:\Users\phili\source\repos\Rel05B\Rel05B\bin\Debug\netcoreapp3.1\Rel05B.exe
+C:\Users\phili\source\repos\Rel05B\Rel05B\bin\Debug\netcoreapp3.1\Rel05B.deps.json
+C:\Users\phili\source\repos\Rel05B\Rel05B\bin\Debug\netcoreapp3.1\Rel05B.runtimeconfig.json
+C:\Users\phili\source\repos\Rel05B\Rel05B\bin\Debug\netcoreapp3.1\Rel05B.runtimeconfig.dev.json
+C:\Users\phili\source\repos\Rel05B\Rel05B\bin\Debug\netcoreapp3.1\Rel05B.dll
+C:\Users\phili\source\repos\Rel05B\Rel05B\bin\Debug\netcoreapp3.1\Rel05B.pdb
+C:\Users\phili\source\repos\Rel05B\Rel05B\obj\Debug\netcoreapp3.1\Rel05B.dll
+C:\Users\phili\source\repos\Rel05B\Rel05B\obj\Debug\netcoreapp3.1\Rel05B.pdb
+C:\Users\phili\source\repos\Rel05B\Rel05B\obj\Debug\netcoreapp3.1\Rel05B.genruntimeconfig.cache
