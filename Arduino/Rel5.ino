@@ -180,8 +180,8 @@ void dump()
             Serial.print(memoria[i]);
         else
             Serial.print(memoria[i]);
-
-        Serial.print(" - ");
+		if (i = posMemAtual)
+        	Serial.print(" - ");
     }
 }
 
@@ -195,8 +195,7 @@ void loop()
         memoria[posMemAtual] = linha[2];
         String resp = ParseMnemonico(linha[2]);
 
-        dump();
-
+        dump();	
         Serial.println();
 
         ValorLed(resp);
