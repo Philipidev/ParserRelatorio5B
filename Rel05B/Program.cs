@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using System.Text;
 
 namespace Rel05B
 {
@@ -13,6 +14,7 @@ namespace Rel05B
         {
             bool Selecionou = false;
             string[] TextoArquivo = new string[0];
+
             while (!Selecionou)
             {
                 try
